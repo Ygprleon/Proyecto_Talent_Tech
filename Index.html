@@ -21,11 +21,34 @@
   <header id="header" class="header"> <!-- Header  -->
     <div class="header_div">
       <div class="logo">
-        <h1 class="logo_h1"><a href="Proyecto.html"><span>Ani Toys Happy Pets</span></a></h1>
-        <a href="Proyecto.html"><img src="/image/Perrosygatos.jpg" alt="Imagendeperrosygatos" class="logo_h1_img"></a>
+        <h1 class="logo_h1" class="logo_item"><a href="Proyecto.html"><span>Ani Toys Happy Pets</span></a></h1>
+        <nav id="navbar" class="navbar" class="logo_item"> 
+          <ul class="navbar_ul">
+            <li><a class="navbar_ul_li" href="index.html">Inicio</a></li>
+            <li><a class="navbar_ul_li" href="nosotros.html">Nosotros</a></li>
+            <li><a class="navbar_ul_li" href="juguetes.html"><span>Articulos</span></a>
+              <ul class="juguetes_ul">
+                <li class="jug_ul_li"><a href="#">Perros</a></li>
+                <li class="jug_ul_li"><a href="#"><span>Sogas</span></a></li>
+                  <ul class="sogas_ul">
+                    <li class="sogas_ul_li"><a href="#">Pequeñas</a></li>
+                    <li class="sogas_ul_li"><a href="#">Largas</a></li>
+                    <li class="sogas_ul_li"><a href="#">Gruesas</a></li>
+                    <li class="sogas_ul_li"><a href="#">Finas</a></li>
+                    <li class="sogas_ul_li"><a href="#">ExtraFuertes</a></li>
+                  </ul>
+                <li class="jug_ul_li"><a href="#">Roller snack</a></li>
+                <li class="jug_ul_li"><a href="#">Pelotas de snacks</a></li>
+                <li class="jug_ul_li"><a href="#">Alfombras de snacks</a></li>
+              </ul>
+            </li>
+            <li><a class="navbar_ul_li" href="contact.html">Contáctanos!!</a></li>
+          </ul>
+        </nav>
+        <a href="Proyecto.html"><img src="/image/Perrosygatos.jpg" alt="Imagendeperrosygatos" class="logo_h1_img" class="logo_item"></a>
       </div>
-        <!-- Inicio Navbar -->
-      <nav id="navbar" class="navbar">
+        <!-- Inicio Navbar --> <!--
+      <nav id="navbar" class="navbar"> 
         <ul class="navbar_ul">
           <li><a class="navbar_ul_li" href="index.html">Inicio</a></li>
           <li><a class="navbar_ul_li" href="nosotros.html">Nosotros</a></li>
@@ -47,8 +70,8 @@
           </li>
           <li><a class="navbar_ul_li" href="contact.html">Contáctanos!!</a></li>
         </ul>
-      </nav> <!--  cierre navbar -->
-    </div> <!-- cierrre div header-->
+      </nav> --> <!--  cierre navbar -->
+    </div> <!-- cierrre header div-->
   </header> <!--  Fin del Header -->
 
   <!-- Seccion Hero -->
@@ -113,37 +136,50 @@
 
     <!-- Seccion Caracteristicas -->
     <section class="carac">
-      <div class="carac_container">
+      <div class="carac_mater">
         <div class="carac_container_div">
           <h2>Características</h2>
           <p>Materiales hipoalérgenicos y no tóxicos. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
+        <div class="carac_container_div">
+          <h2>Perros Gatos</h2>
+          <p class="div_img_p">
+            Compreles peluches. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <p class="div_img_p">
+            Saquelos a pasear por Av. Corrientes en la noche. Excepto en verano. A deserunt mollit anim id est laborum
+          </p>
+        </div>
+      </div>
+      <!-- Seccion Tarjetas-->
+      <div class="carac_container">
         <div class="carac_container_divtarj">
           <div class="container_div_img">
-            <img src="assets/img/features-1.svg" class="img_carac" alt="">
+            <img src="image/nudo_perrogde.jpg" class="img_carac" alt="">
           </div>
           <div class="container_div_img">
-            <h3>Los cachorros juegan</h3>
+            <h3>Nudos para Morder</h3><br>
             <p class="div_img_p">
               Los cachorros deben jugar para crecer sanos. ergo los chanchos son buenos. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p>
+            </p><br>
             <ul>
-              <li><i class="div_img_p_li"></i> Perros y gatos deben jugar y distraerse.</li>
+              <li><i class="div_img_p_li"></i> Perros y gatos deben jugar y distraerse.</li><br>
               <li><i class="div_img_p_li"></i> Los juegos cumplen un rol muy importante en la conducta. Duis aute irure dolor in reprehenderit in voluptate velit.</li>
             </ul>
           </div>
         </div>
         <div class="carac_container_divtarj">
           <div class="container_div_img">
-            <img src="assets/img/features-2.svg" class="img_carac">
+            <img src="image/nudo_soga.jpg" class="img_carac">
           </div>
           <div class="container_div_img">
-            <h3>Alma sana en cuerpo sano</h3>
+            <h3>Nudos para Lanzar</h3><br>
             <p class="div_img_p">
               Jugar es bueno para la salud de tu mascota. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
-            </p>
+            </p><br>
             <p>
               Compre juguetes de calidad para sus perros y gatos. ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
               velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
@@ -153,39 +189,37 @@
         </div>
         <div class="carac_container_divtarj">
           <div class="container_div_img">
-            <img src="assets/img/features-3.svg" class="img_carac" alt="">
+            <img src="image/nudosoga_colores.jpg" class="img_carac" alt="">
           </div>
           <div class="container_div_img">
-            <h3>Sogas para tironear</h3>
-            <p class="div_img_p">Varitas para jugar. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>Sogas para tironear</h3><br>
+            <p class="div_img_p">Varitas para jugar. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p><br>
             <ul>
-              <li><i class="bi bi-check"></i> Cilindros interactivos para tu perro.</li>
-              <li><i class="bi bi-check"></i> Rascadores para tus gatos.</li>
+              <li><i class="bi bi-check"></i> Cilindros interactivos para tu perro.</li><br>
+              <li><i class="bi bi-check"></i> Rascadores para tus gatos.</li><br>
               <li><i class="bi bi-check"></i> Alfombras de olor para mantener sus instintos.</li>
             </ul>
           </div>
         </div>
-      </div>
-      <div class="carac_coment">
-          <div class="carac_coment_div">
-            <img src="assets/img/features-4.svg" class="img_x" alt="">
-          </div>
-          <div class="carac_coment_div">
-            <h3>Las facturas con café cortado son una bendición</h3>
-            <p class="div_img_p">
-              Comprar comida de Fifi. Un café por la mañana. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
-            </p>
-            <p class="div_img_p">
-              Pasear con Rin Tin Tin. Tostadas con jugo de naranja por favor. Pasear por Av. Corrientes en la noche. Excepto en verano. A deserunt mollit anim id est laborum
-            </p>
-          </div>
-      </div>
+        <div class="carac_container_div">
+          <img src="assets/img/features-4.svg" class="img_x" alt="">
+        </div>  <!--
+        <div class="carac_container_div">
+          <h2>Perros Gatos</h2>
+          <p class="div_img_p">
+            Compreles peluches. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <p class="div_img_p">
+            Saquelos a pasear por Av. Corrientes en la noche. Excepto en verano. A deserunt mollit anim id est laborum
+          </p>
+        </div> -->
+      </div>   <!-- Fin Seccion Tarjetas-->
     </section>
     <!-- Fin de la Seccion Caracteristicas -->
   </main> <!-- Fin Seccion Main-->
   <!-- Footer -->
-  <footer id="footer" data="xxxx">
+  <footer id="footer">
     <div class="footer-newsletter">
       <div class="container">
         <div class="row">
@@ -194,9 +228,17 @@
             <p>Productos de excelente calidad para sus mascotas a precios inmejorables</p>
           </div>
           <div class="footer_boton">
-            <form action="" method="post">
-              <input type="email" placeholder="escribe tu email" required name="email">
-              <input type="submit" value="Suscribase">
+            <form action="https://formspree.io/f/myzyjvne" method="POST">
+              <label for="name">Nombre:</label>
+              <input type="text" id="name" name="name" required>
+            
+              <label for="email">Correo:</label>
+              <input type="email" id="email" name="email" required>
+            
+              <label for="message">Mensaje:</label>
+              <textarea id="message" name="message" required></textarea>
+            
+              <button type="submit">Enviar</button>
             </form>
           </div>
         </div>
@@ -220,7 +262,7 @@
           <div class="footer_top_div">
             <h4>Nuestros servicios</h4>
             <ul>
-              <li><i class="#"></i> <a href="#">Asesoramiento</a></li>
+              <li><i class="#"></i>     <a href="#">Asesoramiento</a></li>
               <li><i class="#"></i> <a href="#">Entrega a domicilio</a></li>
               <li><i class="#"></i> <a href="#">Juguetes a pedido</a></li>
               <li><i class="#"></i> <a href="#">Materiales especiales</a></li>
@@ -234,12 +276,11 @@
               Av. Corrientes 666 <br>
               CABA, Capital Federal 55555sincorriente<br>
               Argentina <br><br>
+              <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.025532874832!2d-58.38338402521272!3d-34.60351585748589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacf18641bdd%3A0xf749b99ef4c5f623!2sAv.%20Corrientes%20666%2C%20C1043AAT%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1731637354694!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br> 
               <strong>Phone:</strong> +54 911 666 04666<br>
               <strong>Email:</strong> info@tehagotupagina.com<br>
             </p>
-
           </div>
-
           <div class="footer_top_div">
             <h3>Sobre Ani Toys Happy Pets</h3>
             <p>Son maravillosos. Los juguetes son increibles. La ostia.  fermentum iaculis eu non diam phasellus.</p>
