@@ -3,6 +3,7 @@
 
 /* Header */
 
+/*
 .logo {
   display: flex;
   flex-flow: row wrap;
@@ -11,25 +12,27 @@
   padding: 10px 20px;
   background-color: var(--color-primary);
   border-radius: 5px; 
-}
+}  */
 
+/*
 .logo_h1 {
   margin: 0;
-}
+} */
 
+/*
 .logo_h1 a {
   text-decoration: none;
   font-size: 1.5em;
   font-weight: bold;
-}
+} */
 
+/*
 .header {
-  position: sticky;
   top: 0;
   background-color: var(--color-primary);
   color: var(--color-secondary2);
   padding: 20px;
-}
+}  */
 
 /*
 .logo {
@@ -46,42 +49,89 @@
   grid-column: 2;
 } */
 
+/*
 .logo img {
   height: 70px;
-  margin-left: 20px;  
+  margin-left: 20px;
+  padding: 15px;
+}  */
+
+.brand-title {
+  transition: font-weight 0.3s ease;
 }
 
+.brand-title:hover {
+  font-weight: bold; /* Negrita al hacer hover */
+}
+
+.logo_item {
+  max-height: 50px; /* Ajusta según el alto de la navbar */
+  background-color: transparent; /* Color del fondo transparente */
+  transition: transform 0.3s ease; /* Animación suave en hover */
+  padding-right: 30px;
+}
+
+
 .logo_h1_img {
+  padding: 40px;
+  margin-top: opx;
   transition: all 0.3s;
 }
 
-/* hoover img */
-.logo_h1_img:hover {
-transform: scale(1.2);
+.logo_item:hover {
+  transform: scale(1.1); /* Ligeramente más grande al hacer hover */
+}
+
+.navbar-nav {
+  align-items: center; /* Asegura la alineación al lado de la imagen */
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: 0.1rem;
 }
 
 
+/* hoover img 
+.logo_h1_img:hover {
+transform: scale(1.2);
+
+}  */
+
+/*
 .logo a, .logo h1 {
   color: var(--color-secondary2);
   text-decoration: none;
   font-size: 1.5rem;
-}
+}  */
 
 /* Navbar */
 .navbar {
-  margin-top: 10px;
+  margin-top: opx;
+  position: sticky;
+  background-color: var(--color-gray);
   
 }
 
+/*
 .navbar ul {
   display: flex;
   list-style: none;
   justify-content: center;
-}
+}   */
 
+
+/*
 .navbar ul li {
   position: relative;
-}
+}  */
+
+
 
 .navbar ul li a {
   color: var(--color-secondary2);
@@ -288,10 +338,14 @@ padding: 5px 5px;
 
 /* Footer */
 #footer {
-  background-color: var(--color-primary2);
+  background-color: var(--color-gray-dark);
   color: var(--color-gray);
   padding: 40px 0;
   text-align: center;
+}
+
+h4 + ul {
+list-style: none;
 }
 
 .footer_top_div li a {
@@ -300,7 +354,7 @@ padding: 5px 5px;
 }
 
 .footer-top ul li a:hover {
-  text-decoration: underline; /* Opcional: añade un subrayado al pasar el mouse si lo deseas */
+  text-decoration: underline; /* Opcional: añade un subrayado */
   color: var(--color-yellow-light); /* Cambia el color del enlace al pasar el mouse (opcional) */
 }
 .footer-newsletter, .footer-top {
