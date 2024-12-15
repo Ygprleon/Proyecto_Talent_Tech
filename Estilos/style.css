@@ -68,7 +68,7 @@
   max-height: 50px; /* Ajusta según el alto de la navbar */
   background-color: transparent; /* Color del fondo transparente */
   transition: transform 0.3s ease; /* Animación suave en hover */
-  padding-right: 30px;
+  
 }
 
 
@@ -142,6 +142,11 @@ transform: scale(1.2);
   transition: color 0.3s ease;
 }
 
+div a > span {
+  margin-left: 15px;
+}
+
+
 .navbar ul li a:hover {
   color: var(--color-yellow-light);
 }
@@ -195,6 +200,47 @@ transform: scale(1.2);
   font-size: 1.2rem;
 }  */
 
+.container__hero-area {
+  width: 100%;
+  height: 87vh;
+  background-image: url("../image/HeroDogsCats.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5rem 0rem;
+}
+
+.container__hero-blur {
+  width: 72.47%;
+  background-color: var(--color-white-transp);
+  backdrop-filter: blur(10px);
+  padding: 2.5rem;
+}
+
+.container__hero-box {
+  background-color: var(--color-white);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  text-align: center;
+}
+
+.container__hero-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+
 /* Main */
 #main {
   padding: 15px;
@@ -210,6 +256,7 @@ transform: scale(1.2);
 
 .row .row_div {
   margin-bottom: 8px;
+  
 
 }
 
@@ -236,6 +283,23 @@ transform: scale(1.2);
   flex-wrap: wrap;
   
 
+}
+
+
+.container__banner-area {
+  margin-top: 5%;
+  padding-bottom: 4.5rem;
+}
+
+.container__banner {
+  background-color: var(--color-gray-dark);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  padding: 2rem;
 }
 
 

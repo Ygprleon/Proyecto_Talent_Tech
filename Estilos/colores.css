@@ -6,6 +6,11 @@
   --color-yellow-light: #cc5b14;
   --color-gray: #ccc;
   --color-gray-dark: #333;
+  --color-white: #f8f9f8;
+  --color-white-transp: rgba(248, 249, 248, 0.2);
+  --color-text-light: #d4dbd4;
+  --color-text-dark: #161816;
+
   
   
   }
