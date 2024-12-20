@@ -256,7 +256,7 @@ div a > span {
 
 .row .row_div {
   margin-bottom: 8px;
-  
+
 
 }
 
@@ -421,6 +421,7 @@ list-style: none;
   text-decoration: underline; /* Opcional: añade un subrayado */
   color: var(--color-yellow-light); /* Cambia el color del enlace al pasar el mouse (opcional) */
 }
+
 .footer-newsletter, .footer-top {
   padding: 20px 0;
   margin-bottom: 20px;

@@ -12,7 +12,7 @@
 
   <!-- Favicon --> 
   <!-- Favicon -->
-<link rel="icon" type="image/x-icon" href="image/trun.ico">
+  <link rel="icon" type="image/x-icon" href="image/trun.ico">
   
   <!-- Fuentes Google  -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,700,700i&display=swap" rel="stylesheet"> -->
@@ -21,9 +21,9 @@
   <link href="Estilos/style.css" rel="stylesheet">
 </head>  <!-- fin head-->
 <body> 
-  <nav class="navbar navbar-expand-lg bg-body-light-subtle sticky-top">
+  <nav id="navbar" class="navbar navbar-expand-lg bg-body-light-subtle sticky-top">
     <div class="container-fluid">
-      <a href="Proyecto.html" class="navbar-brand d-flex align-items-center">
+      <a href="#titulo" class="navbar-brand d-flex align-items-center">
         <img src="/image/Perrosygatos.jpg" alt="Imagendeperrosygatos" class="rounded logo_item">
         <span class="nav-link brand-title fw-normal text-secondary">Ani Toys Happy Pets</span>
       </a>
@@ -35,7 +35,7 @@
           <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Inicio</a></li>
           <li class="nav-item"><a class="nav-link text-secondary" href="#">Nosotros</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-secondary" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Juguetes</a>
+            <a class="nav-link dropdown-toggle text-secondary" href="#juguetes.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">Juguetes</a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Sogas</a></li>
               <li><a class="dropdown-item" href="#">Pelotas de Snacks</a></li>
@@ -52,7 +52,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link text-secondary" href="#" aria-disabled="true">Roller Snacks</a></li>
+          <li class="nav-item"><a class="nav-link text-secondary" href="#RollerSnack.html" aria-disabled="true">Roller Snacks</a></li>
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
@@ -144,10 +144,10 @@
       </div>
     </div>
   </section>   Fin Seccion Hero-->
-  <section class="container__hero-area">
+  <section id="titulo" class="container__hero-area">
     <div class="container__hero-blur">
         <div class="container__hero-box">
-            <h1 class="titulo txt-xlarge txt-dark">¡Bienvenidos a Ani Toys Happy Pet  !</h1>
+            <h1 class="titulo txt-xlarge txt-dark">¡Bienvenidos a Ani Toys Happy Pet!</h1>
             <div class="container__hero-txt">
                 <P class="txt-body txt-small txt-dark">Juegos y juguetes para tus mejores amigos <strong class="txt-resalte"> porque son parte de tu familia! </strong> </P>
                 <P class="txt-body txt-small txt-dark">Materiales hipoalergénicos. En nuestra tienda podés encontrar <strong class="txt-resalte">juguetes</strong> para regalar, <strong
@@ -166,7 +166,7 @@
                 tienda</button>
         </div>
     </div>
-</section>    
+  </section>    
 
   <!-- Seccion Main-->
   <main id="main">  
@@ -223,7 +223,7 @@
             magna aliqua.
           </p>
           <p class="div_img_p">
-            Saquelos a pasear por Av. Corrientes en la noche. Excepto en verano. A deserunt mollit anim id est laborum
+            Saquelos a pasear por Av. Corrientes en la noche. Excepto en verano. 
           </p>
         </div>
       </div>
@@ -264,7 +264,33 @@
               <div class="container_div_img">
                 <h3>Sogas para Tironear</h3>
                 <p class="div_img_p">
-                  Varitas para jugar. Delectus quia minima quod...
+                  Varitas para jugar. A tu gatito le gusta...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carac_container_divtarj">
+              <div class="container_div_img">
+                <img src="image/rascador1.jpg" class="img_carac" alt="Imagen de rascador para gatos">
+              </div>
+              <div class="container_div_img">
+                <h3>Rascadores por encargo</h3>
+                <p class="div_img_p">
+                  ¿No encuentra el rascador que le gustaba a su gato? Se lo hacemos a medida...
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carac_container_divtarj">
+              <div class="container_div_img">
+                <img src="image/soga_tejida.jpg" class="img_carac" alt="Imagen de soga tejida a mano">
+              </div>
+              <div class="container_div_img">
+                <h3>Sogas hechas a su gusto</h3>
+                <p class="div_img_p">
+                  ¿No encuentra la soga que le gustaba a su perro? Se la hacemos...
                 </p>
               </div>
             </div>
@@ -278,8 +304,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Siguiente</span>
         </button>
-      </div>
-      
+      </div> 
       <!-- Seccion Tarjetas
       <div class="carac_container">
         <div class="carac_container_divtarj">
@@ -344,8 +369,18 @@
         </div>
       </div> --> <!-- Fin Seccion Tarjetas-->
     </section>
+    <!-- Banner Juguetes Personalizados -->
+    <section class="container__banner-area">
+      <div class="container__banner">
+          <div class="container__banner-txt">
+              <p class="title text-bg text-white">¿No consigue lo que busca?</p>
+              <p class="txt-body text-bg text-white">!Nosotros lo hacemos para usted! <br>Envienos su idea</p>
+          </div>
+      </div>
+    </section> 
     <!-- Fin de la Seccion Caracteristicas -->
   </main> <!-- Fin Seccion Main-->
+  
   <!-- Footer -->
   <footer id="footer">
     <div class="footer-newsletter">
@@ -355,17 +390,25 @@
             <h4>¿Quiere recibir noticias? ¡Suscribase ahora! </h4>
             <p>Productos de excelente calidad para sus mascotas a precios inmejorables</p>
           </div>
+
           <div class="footer_boton">
             <form action="https://formspree.io/f/myzyjvne" method="POST">
+
               <label for="name">Nombre:</label>
-              <input type="text" id="name" name="name" required>
+              <input type="text" id="name" name="name" required placeholder="Escriba su nombre">
             
               <label for="email">Correo:</label>
-              <input type="email" id="email" name="email" required>
+              <input type="email" id="email" name="email" required placeholder="Escriba su e-mail">
+
+              <label for="input-subjet">Asunto</label>
+              <input type="text" name="Asunto" id="input-subjet" placeholder="Ingresá un asunto" autocomplete="on">
             
               <label for="message">Mensaje:</label>
-              <textarea id="message" name="message" required></textarea>
-            
+              <textarea id="message" name="message" required placeholder="Escriba su mensaje"></textarea>
+              
+              <label class="label" for="input-phone">Teléfono (Argentina)</label>
+              <input type="tel" name="Teléfono" id="input-phone" placeholder="Ingresá tu teléfono sin espacios o guiones" autocomplete="on">
+
               <button type="submit">Enviar</button>
             </form>
           </div>
@@ -411,7 +454,7 @@
           </div>
           <div class="footer_top_div">
             <h3>Sobre Ani Toys Happy Pets:</h3>
-            <p>Son maravillosos. Los juguetes son increibles. La ostia.  fermentum iaculis eu non diam phasellus.</p>
+            <p>Son maravillosos. Los juguetes son increibles. Hacen juguetes por encargo.</p>
             <div class="footer_top_div_div">
               <a href="#" class="twitter"><strong class="twitter"></strong></a>
               <a href="#" class="facebook"><strong class="facebook"></strong></a>
@@ -430,8 +473,11 @@
     </div>
   </footer>
   <!-- Fin seccion Footer -->
-   
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+   <!--
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>  -->
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  <!-- Etiqueta para el js en Bootstrap-->
+
+  <script src="/scripts/main.js"></script>
 </body>
 </html>
