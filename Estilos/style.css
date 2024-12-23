@@ -303,6 +303,20 @@ div a > span {
 }
 
 
+.carousel-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+div > h5 {
+  color: var(--color-primary);
+}
+
+di > p {
+  color: var(--color-gray-dark);
+} 
+
 /* Contenedor de las tarjetas */
 
 .img_carac {
@@ -351,6 +365,7 @@ padding: 5px 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+ 
 }
 
 
@@ -490,6 +505,19 @@ list-style: none;
 
 .social-links a:hover {
   color: var(--color-secondary2);
+}
+
+.btn > btn-primary {
+  margin-top: 20px;
+  background-color: var(--color-primary);
+  color: var(--color-yellow-light);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  transition: background-color 0.3s;
 }
 
 /* Volver arriba */
